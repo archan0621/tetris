@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tetris</title>
+    <style type="text/css">
+    canvas {
+    display: block;
+    margin: auto;
+    border: 3px solid black;
+    }
+
+    #playbutton {
+    width: 150x;
+    height: 50px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
+    }
+    #resetbutton{
+        width: 150x;
+    height: 50px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
+    }
+    body{
+        background-color: skyblue;
+        background-image: url("bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    </style>
+    </head>
+    <body>
+        <script type="text/javascript">
+        
+        </script>
+        <canvas width='500' height='800'></canvas>
+        <button id="playbutton" onclick="playButtonClicked();">플레이</button>
+        <button id="resetbutton" onclick="resetButtonClicked()">리셋</button>
+        <script src='game.js'></script>
+    </body>
+</html>
